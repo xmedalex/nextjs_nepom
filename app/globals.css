@@ -120,11 +120,23 @@ main {
 }
 
 header {
-  background-color: #000;
+  background-color: #989898;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-style: 14px;
   height: 85px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header a {
   color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header a:hover {
+  text-decoration: underline;
+  font-size: 22px;
 }
